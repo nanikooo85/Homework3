@@ -1,0 +1,175 @@
+/*Set some default style */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.logo img{
+    width: 180px;
+    height: 96px;
+    flex-shrink: 0;
+}
+ nav ul,li{
+    list-style-type: none;
+    align-items: center;
+    gap: 121px;
+    display: inline-flex;
+    justify-content: center;
+    height: 26px;
+    flex-shrink: 0;
+ }
+
+ a{
+    text-decoration: none;
+ }
+ .photo-section {
+    text-align:center;
+    width: 1440px;
+    height: 478px;
+    flex-shrink: 0;
+    color:white;
+ }
+ 
+ .welcom-section h2{
+    color: #17326E;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+
+ .welcome-section p{
+    color:#090346;
+    font-family:Inter;
+    font-size:20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 780px;
+    
+ }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    flex-shrink: 0;
+    background-color: #EBEBF0;
+  }
+  .three-pictures-section {
+    display: flex;
+    justify-content:space-around;
+    padding-top: 100px;
+    padding-bottom: 100px ;
+    margin-top: 20px;
+   
+  }
+   .picture-1,
+   .picture-2,
+   .picture-3 {
+    margin-left: 10px;
+   }
+
+   .footer-box{
+    background-color: #19126B;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+   }
+
+   .logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+   }
+   .copywright{
+    text-align: right;
+    color:#FFFFFF;
+
+   }
+
+section.history {
+  display:flex;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+div.car-photo img {
+  max-width: 100%;
+  align-items: center;
+  justify-items: left;
+}
+
+.contact h2{
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.conact p{
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Apply basic styling to the footer */
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the footer images */
+  .footer img {
+    width: 30px; /* Set the desired width for the images */
+    height: 30px; /* Set the desired height for the images */
+    margin: 5px; /* Add some space between the images */
+  }
